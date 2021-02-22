@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.902 s <<< FAILURE! - in TestRunner.TestRunner
+Validation of the First article from Guardian against other source(Validating The Guardian Article)  Time elapsed: 8.36 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="hide-focus-ring" href="/search?q=Brighton+v+Crystal+Palace:+Premier+League+%E2%80%93+live!&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwiD4-yNtv7uAhXwUhUIHYF2DysQ_AUoAXoECAYQAw">...</a> is not clickable at point (266, 97). Other element would receive the click: <iframe src="https://consent.google.com?hl=en-GB&amp;origin=https://www.google.com&amp;continue=https://www.google.com/search?source%3Dhp%26ei%3DSSA0YNfCIoXFxgOAnJ_oDQ%26iflsig%3DAINFCbYAAAAAYDQuWWGLgJimgXSJFQPkzYRvQL5tySHu%26q%3DBrighton%2Bv%2BCrystal%2BPalace:%2BPremier%2BLeague%2B%25E2%2580%2593%2Blive!&amp;if=1&amp;m=0&amp;pc=s&amp;wp=-1&amp;gl=GB"></iframe>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8VPDQ9U', ip: '192.168.0.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\ganes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1b418a035ccdc6cc1621981e8c86d1cb
+
